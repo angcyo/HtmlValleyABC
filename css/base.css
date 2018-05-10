@@ -14,7 +14,7 @@ a:hover, a:visited, a:link, a:active {
 .base_contain {
     background-color: #F0F0F5;
     width: 100%;
-    max-width: 720px;
+    max-width: 560px;
     height: 100%;
     padding: 10px;
     margin: 0 auto;

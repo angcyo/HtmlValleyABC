@@ -46,7 +46,7 @@
 .vip_button {
     display: block;
     position: relative;
-    margin: 10px;
+    margin: 40px 10px;
     height: 40px;
     text-align: center;
     line-height: 40px;
@@ -63,4 +63,84 @@
 /*点击激活时*/
 .vip_button:active {
     background-color: #235dff;
+}
+
+.vip_line2 {
+    border: none;
+    position: relative;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.vip_grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.vip_grid_item {
+    width: 33.33%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vip_grid1 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.vip_grid2 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vip_left_right_line {
+    width: 40px;
+    margin: 0px 8px;
+    height: 1px;
+    background-color: #ffc56a;
+}
+
+.vip_left_right_line_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/*div.vip_grid div {*/
+/*background: chocolate;*/
+/*flex: 1 1 auto;*/
+/*}*/
+
+.vip_hb {
+    width: 40px;
+    height: 40px;
+    /*background-image: url("../image/vip/icon_hongbaolingqu_vip.png");*/
+    /*background-color: #32ff6d;*/
+}
+
+.vip_grid_item_text1 {
+    font-size: 14px;
+    margin: 1px;
+}
+
+.vip_grid_item_text2 {
+    font-size: 12px;
+    margin: 1px;
+    color: #ffc56a;
 }
