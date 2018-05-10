@@ -1,0 +1,27 @@
+.main_contain {
+    background-color: #F0F0F5;
+    width: 100%;
+    max-width: 560px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.bottom_nav {
+    display: flex;
+    height: 60px;
+    background-color: #ffc56a;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    max-width: 560px;
+}
+
+.container {
+    max-width: 560px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #6f97ff;
+    margin-bottom: 60px;
+    color: #32ff6d;
+}
