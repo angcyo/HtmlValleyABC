@@ -5,11 +5,53 @@
     <title>VIP</title>
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/image.css"/>
+    <link rel="stylesheet" href="css/vip_css.css"/>
     <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/vip_js.js"></script>
+    <script src="js/rcookie.js"></script>
+    <script src="js/util.js"></script>
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
 </head>
 <body>
 <div class="base_contain">
-    <img src="http:\/\/avatorimg.klgwl.com\/151157400101519_s_1020x900.jpg" class="round_image"/>
+    <!--头像, 用户信息-->
+    <div style="display: flex;">
+        <img src="http://avatorimg.klgwl.com/151157400101519_s_1020x900.jpg"
+             class="round_image base_selector_padding"/>
+        <div style="padding-top: 4px; padding-left: 8px">
+            <div>
+                <span>Y2<img src="image/icon_xiaohuangguan_vip.png" class="vip_ico"/></span>
+            </div>
+            <div><span>描述描述描述描述描述描述描述描述描述述描述描述描述</span></div>
+            <hr class="base_h_line"/>
+        </div>
+    </div>
+    <!--月份选择-->
+    <div style="display: flex">
+        <a class="vip_item" href="javascript:void(0)">
+            <span class="base_block  vip_item_text">0.01元</span>
+            <img class="base_block vip_item_line" src="image/icon_fengexian_vip.png"/>
+            <span class="base_block vip_item_desc">1个月</span>
+            <img class="vip_selected" src="image/icon_xuanzhong_vip.png"/>
+        </a>
+        <a class="vip_item" href="javascript:void(0)">
+            <span class="base_block  vip_item_text">0.02元</span>
+            <img class="base_block vip_item_line" src="image/icon_fengexian_vip.png"/>
+            <span class="base_block vip_item_desc">3个月</span>
+            <img class="vip_selected" src="image/icon_xuanzhong_vip.png"/>
+        </a>
+        <a class="vip_item" href="javascript:void(0)">
+            <span class="base_block  vip_item_text">0.03元</span>
+            <img class="base_block vip_item_line" src="image/icon_fengexian_vip.png"/>
+            <span class="base_block vip_item_desc">6个月</span>
+            <img class="vip_selected" src="image/icon_xuanzhong_vip.png"/>
+        </a>
+    </div>
+
+    <a href="javascript:void(0)" class="vip_button">续费</a>
+
+    ...end
 </div>
 </body>
 </html>

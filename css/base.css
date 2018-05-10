@@ -3,9 +3,66 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active {
+    /*做到只设置一次，就可以使所有a标签的四种状态都和本身颜色保持一致，样式代码该怎么写*/
+}
+
 .base_contain {
     background-color: #F0F0F5;
-    width: 1080px;
+    width: 100%;
+    max-width: 720px;
     height: 100%;
     padding: 10px;
+    margin: 0 auto;
+}
+
+/*默认的横线*/
+.base_h_line {
+    height: 1px;
+    background-color: #e0e0e0;
+    border: none;
+    margin-top: 8px;
+}
+
+/*横向居中*/
+.base_h_center {
+    margin: 0px auto;
+}
+
+.base_block {
+    display: block;
+}
+
+.base_inline_block {
+    display: inline-block;
+}
+
+.base_single_line {
+    text-overflow: ellipsis;
+}
+
+/*为可选边框, 添加一定的距离, 用来当鼠标hover的时候, 显示选中框效果*/
+.base_selector_padding {
+    padding: 2px;
+}
+
+/*添加醒目的背景提示*/
+.debug {
+    background-color: #ff033e;
+}
+
+.debug1 {
+    background-color: #6f97ff;
+}
+
+.debug2 {
+    background-color: #ff42fb;
+}
+
+.debug3 {
+    background-color: #32ff6d;
 }
