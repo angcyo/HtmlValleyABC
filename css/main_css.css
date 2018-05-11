@@ -95,6 +95,74 @@
     transform: translate(-50%, -30%);
 }
 
+.nav_center_dialog_wrapper {
+    position: fixed;
+    bottom: 0px;
+    z-index: 100;
+    width: 100%;
+    max-width: 560px;
+    height: 100%;
+    display: none;
+    background: black;
+    opacity: 0;
+}
+
+.nav_center_dialog {
+    height: 0px; /*动画控制高度*/
+    background-color: #fff4fb;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    max-width: 560px;
+    z-index: 100;
+    opacity: 1;
+}
+
+.nav_center_dialog_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.nav_center_dialog_cancel {
+    background-image: url("../image/nav/guanbi_34_press.png");
+    background-size: 100% 100%;
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.nav_dialog_sub_item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.nav_dialog_sub_item_video {
+    width: 60px;
+    height: 60px;
+    background: url("../image/nav/shiping_dongtai_home_tianjia_n.png");
+    background-size: 100% 100%;
+}
+
+.nav_dialog_sub_item_game {
+    width: 60px;
+    height: 60px;
+    background: url("../image/nav/tuwen_huodong_home_tianjia_n.png");
+    background-size: 100% 100%;
+}
+
+.nav_dialog_sub_item_gc {
+    width: 60px;
+    height: 60px;
+    background: url("../image/nav/hongbaoguangchang_tianjia_s.png");
+    background-size: 100% 100%;
+}
+
 .container {
     max-width: 560px;
     width: 100%;
