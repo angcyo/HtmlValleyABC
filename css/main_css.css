@@ -8,12 +8,91 @@
 
 .bottom_nav {
     display: flex;
-    height: 60px;
+    height: 80px;
     background-color: #ffc56a;
     position: fixed;
     width: 100%;
     bottom: 0px;
     max-width: 560px;
+}
+
+.bottom_nav_item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F0F0F5;
+    /*color: #e0e0e0;*/
+    margin: 10px;
+}
+
+.nav_message {
+    width: 30px;
+    height: 30px;
+    background: url("../image/nav/message_n.png");
+    background-size: 100% 100%;
+}
+
+.nav_message_selected {
+    width: 30px;
+    height: 30px;
+    background: url("../image/nav/message_black_s.png");
+    background-size: 100% 100%;
+}
+
+.nav_home {
+    width: 30px;
+    height: 30px;
+    background: url("../image/nav/home_black_n.png");
+    background-size: 100% 100%;
+}
+
+.nav_home_selected {
+    width: 30px;
+    height: 30px;
+    background: url("../image/nav/home_black_s.png");
+    background-size: 100% 100%;
+}
+
+.nav_found {
+    width: 30px;
+    height: 30px;
+    background: url("../image/nav/found_2_n.png");
+    background-size: 100% 100%;
+}
+
+.nav_found_selected {
+    width: 30px;
+    height: 30px;
+    background: url("../image/nav/found_2_black_s.png");
+    background-size: 100% 100%;
+}
+
+.nav_me {
+    width: 30px;
+    height: 30px;
+    background: url("../image/nav/me_black_n.png");
+    background-size: 100% 100%;
+}
+
+.nav_me_selected {
+    width: 30px;
+    height: 30px;
+    background: url("../image/nav/me_black_s.png");
+    background-size: 100% 100%;
+}
+
+.nav_center {
+    width: 80px;
+    height: 80px;
+    background: url("../image/nav/tianjia_tab_black_n.png");
+    background-size: 100% 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -30%);
 }
 
 .container {
@@ -22,6 +101,6 @@
     width: 100%;
     position: absolute;
     background-color: #6f97ff;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     color: #32ff6d;
 }
