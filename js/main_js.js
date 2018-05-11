@@ -6,7 +6,6 @@ $(document).ready(function () {
 
 
     $(".bottom_nav_item").click(function () {
-
         reset_nav(this);
         selector_nav(this)
         // $(this).find("i").addClass("nav_found_selected")
@@ -16,6 +15,9 @@ $(document).ready(function () {
         // console.log(this)
         // console.log(event)
     })
+
+    //默认选中首页
+    $(".bottom_nav_item").first().click()
 });
 
 /*重置底部导航栏默认图标*/
