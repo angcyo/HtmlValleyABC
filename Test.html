@@ -7,9 +7,59 @@
 
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/main_css.css"/>
+
+    <style>
+        span {
+            position: relative;
+            background-color: #11aae0;
+            margin-left: 100px;
+        }
+
+        ul {
+            background-color: #32ff6d;
+        }
+
+        .menu {
+            position: absolute;
+            width: 100px;
+            margin-left: 100px;
+            display: none;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+            console.log("onLoad....");
+            document.getElementsByTagName("span")[1].onmouseover = function () {
+                console.log("onmouseover....");
+                document.getElementsByClassName("menu")[0].style.display = "block"
+            };
+
+            document.getElementsByTagName("span")[1].onmouseleave = function () {
+                console.log("onmouseover....");
+                document.getElementsByClassName("menu")[0].style.display = "none"
+            };
+        };
+
+        function onOver() {
+            console.log("onOver.... " + this);
+            document.getElementsByClassName("menu").style.display = "block"
+        }
+    </script>
 </head>
 <body>
 <span class="nav_center_dialog_cancel"></span>
 <!--<div><a href="javascript:void(0)"><i class="nav_center_dialog_cancel"> </i></a></div>-->
+
+<!--onmouseover="onOver(this)"-->
+<span id="show_menu">测试span</span>
+
+<ul class="menu">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+</ul>
+<br>
+angcyo
 </body>
 </html>

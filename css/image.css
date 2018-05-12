@@ -8,4 +8,6 @@
 .round_image:hover{
     /*border: 10px solid #05f7ff;*/
     background-color: #2082ff;
+    /*outline:#2082ff solid 2px ;*/
+    /*outline-offset: 2px;*/
 }
